@@ -315,7 +315,7 @@ export interface PluginReviewWorkflowsWorkflowStage
   };
   attributes: {
     name: Schema.Attribute.String;
-    color: Schema.Attribute.String & Schema.Attribute.DefaultTo<'#4945FF'>;
+    color: Schema.Attribute.String & Schema.Attribute.DefaultTo<'#DA154D'>;
     workflow: Schema.Attribute.Relation<
       'manyToOne',
       'plugin::review-workflows.workflow'
