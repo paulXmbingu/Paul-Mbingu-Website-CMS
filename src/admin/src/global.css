@@ -1,0 +1,11 @@
+.StrapiButton {
+    background-color: #DA154D; /* Change the background color to DA154D */
+    color: white;               /* Change the text color to white */
+    border: none;               /* Remove the border */
+    border-radius: 5px;        /* Optional: Add border radius for a rounded effect */
+  }
+  
+  .StrapiButton:hover {
+    background-color: #B50C3D; /* Optional: Change background color on hover */
+  }
+  
